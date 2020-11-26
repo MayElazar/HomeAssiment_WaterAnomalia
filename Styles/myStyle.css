@@ -1,0 +1,136 @@
+﻿body {
+    width:70%; 
+     margin: 0 auto;
+     font-family: Open Sans Hebrew;
+     font-size: 1em;
+     line-height: 2;
+     margin-bottom: 5%;
+}
+
+h1{
+    background-color: #00a28a;
+    color: white;
+    padding: 15px;
+    font-size: 2em;
+    border-right: 12px solid black;
+}
+
+/*עיצוב עבור החלק  של מה נלמד ביחידה הזו*/
+
+#whatWillWeLearn{
+    padding: 5px;
+    background-color: #e6e6e6;
+    width: 50%;
+    display: flex;
+    margin-right: 24%;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#whatWillWeLearn div{
+padding: 20px;
+}
+
+#whatWillWeLearn img{
+display: block;
+justify-content: space-between;
+width: auto;
+height: 100px;
+padding: 26px;
+margin-top: 20px;
+}
+
+/*הוספה קטנה מעצמי - הגדלת התמונה בעת מעבר עכבר*/
+#whatWillWeLearn img:hover{
+    width: auto;
+height: 125px;
+}
+
+/*עיצוב ומיקום רשימת החומרים הדרושים*/
+
+#listOfIng{
+    display: flex;
+}
+
+figure {
+    display: block;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 47px;
+}
+
+
+
+#listOfIng div{
+margin-top: 32px;
+}
+
+#listOfIng ol{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figure img{
+height: 320px;
+width: auto;
+}
+
+figure figcaption{
+    font-size: smaller;
+    font-style: italic;
+    margin-right: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -8px;
+}
+
+
+
+ol {
+    display: list-item;
+    padding-right: 12px;
+}
+
+b{
+    font-size: 1.3em;
+}
+/*מיקום ושינוי גודל התמונה של הבקבוקים*/
+#waterAnomaliaSec figure img{
+    float: right;
+    height: 230px;
+    width: auto;
+    padding-left: 14px;
+}
+
+/*עיצוב וסידור הפסקת האנומליה של המים*/
+#FirstLine{
+padding-bottom: 41px;
+}
+
+#firstP{
+margin-top: -37px;
+}
+
+#secoundP{
+margin-top: 90px;
+}
+
+a{
+    color: magenta;
+    text-decoration: underline;
+}
+
+a:hover{
+    background-color:  midnightblue;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*חלק האחרון בדף - מה ההסבר המיקרוסקופי לתופעה - המשך יבוא*/
+ #toBeContinue{
+     text-align: center;
+ }
+ #toBeContinue b{
+     color: lightseagreen;
+ }
+
